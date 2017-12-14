@@ -1,5 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 .blue{
 	background: #00c2ff;
     
 }
+
+#navside{
+	
+	margin-top: 20px;
+	background:#00c2ff;
+	width: 3.5rem;
+	-webkit-transition: all 00ms ease;
+    transition: all 900ms ease;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px #333;
+    box-shadow: 0px 0px 10px #333;
+     
+
+}
+
+#navside:hover {
+  width:12rem;
+}
+#navside ul {
+  display:table;
+  width: 14rem;
+  list-style-type: none;
+}
+#navside > ul > li {
+  display: table-row;
+  /*background: #80e1ff;*/
+  cursor: pointer;
+}
+#navside > ul > li:hover {
+  background: #fff;
+}
+#navside > ul > li:active {
+  background: #87b9f8;
+}
+
+.main_content{
+	margin-top: 20px;
+	background:#00c2ff;
+	width:100%
+	color: white;
+	font-size: 18px;
+    font-weight: 400;
+    font-family: 'Quicksand', 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+    background: radial-gradient(ellipse at bottom left, rgba(104, 128, 138, 0.4) 10%,
+      rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, 0.25), rgba(42, 60, 87, 0.4)), linear-gradient(135deg, #670d10, #092756);
+}
+
+
+
+
+
+
 
